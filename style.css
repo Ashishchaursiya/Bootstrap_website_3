@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap');
+.navbar-brand img{
+    height: 35px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color:#505962;
+}
+.navbar-nav li a{
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.1rem;
+}
+.navbar-nav li a:hover{
+    color:#74d4c0 !important;
+}
+#landing{
+    background:url(img/computers.png) center no-repeat fixed;
+    width: 100vw;
+    height: 100vh;
+    display: table;
+}
+#text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+}
+#text h1{
+    font-size: 3.7rem;
+    font-weight: 700;
+    padding-bottom: 0.3rem;
+    text-shadow: 2px 3px 4px black;
+    
+}
+#text h3{
+    font-size: 2.0rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    text-shadow: 2px 3px 4px black;
+    
+}
+#course h1,p{
+    text-transform: capitalize;
+}
